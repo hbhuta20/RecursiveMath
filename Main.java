@@ -6,7 +6,7 @@ class Main { // This is the main class
     int input = scan.nextInt(); // read the integer input 
     System.out.println("Order of Magnitude is : " + recursiveOrderOfMagnitude(input)); // print out the order of magnitude
 }
-  static int recursiveOrderOfMagnitude(int num){ // recusive method to find the order of magnitude
+  static int recursiveOrderOfMagnitude(int num){ // recusive method to find the order of magnitude 
     if (num <= 100) { // base case 
       return 1;
     }else{
