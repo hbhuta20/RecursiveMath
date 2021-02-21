@@ -8,7 +8,7 @@ class Main { // This is the main class
     System.out.println("Have a great day :)");
 }
   static int recursiveOrderOfMagnitude(int num){ // recusive method to find the order of magnitude 
-    if (num <= 100) { // base case 
+    if (num <= 10) { // base case 
       return 1;
     }else{
       int divisor = 10; 
